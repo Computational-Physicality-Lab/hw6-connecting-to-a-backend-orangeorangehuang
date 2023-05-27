@@ -106,7 +106,7 @@ const PageCart = () => {
               <div className='summary-total-amount'>${(parseFloat(subtotal) + parseFloat(6.95)).toFixed(2)}</div>
             </div>
             <Link id='summary-checkout' className='summary-btn' to='/null'>
-              Signin and Checkout
+              {isLoggedIn ? 'Checkout' : 'Signin and Checkout'}
             </Link>
           </div>
           <Link id='summary-continue' className='summary-btn' to='/shirts'>

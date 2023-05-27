@@ -3,7 +3,7 @@
 - 系級：資工碩一 
 - 姓名：黃嘉宏 
 ## 1. Deploy 連結
-- 
+- https://r11922101-pui-hw6.netlify.app/
 ## 2. 實作的加分作業項目
 - Display More
     - 點選「Display More」按鈕，便會下載下一頁的 10 張圖片，並把它們添加到現有圖片後方。
